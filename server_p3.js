@@ -5,9 +5,11 @@ var jsonfile = require('jsonfile');
 var file ="./tmp/data.json";
 var bodyParser = require('body-parser');
 var http = require('http');
+var cors = require('cors');
 
 app.set('port', PORT);
 app.use(express.static(__dirname + "/p3"));
+app.use(cors());
 app.use(bodyParser.json());
 
 
