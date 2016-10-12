@@ -2,9 +2,10 @@
   "name": "node-json-file",
   "version": "0.0.1",
   "description": "write to json file via rest",
-  "main": "server.js",
+  "main": "server_p3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server_p3.js"
   },
   "repository": {
     "type": "git",
